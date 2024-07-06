@@ -25,14 +25,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme:ThemeData().copyWith(
+      theme: ThemeData().copyWith(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 17, 160, 179),
-                surface: const Color.fromARGB(131, 17, 160, 179),
+          seedColor: const Color.fromARGB(255, 17, 160, 179),
+          surface: const Color.fromARGB(131, 17, 160, 179),
         ),
       ),
       darkTheme: theme,
-      home:  MainScreen(),
+      home: MainScreen(),
     );
   }
 }
